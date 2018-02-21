@@ -1,0 +1,13 @@
+# Site settings
+title: Blog
+email: hahmed427@gmail.com
+description: This is my blog.
+baseurl: ""
+url: https://hahmed427.github.io
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+    - Gemfile
+    - Gemfile.lock
