@@ -1,3 +1,37 @@
-name: Hassaan Ahmed
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Basic
+name:               "hassaan ahmed"
+description:        "a creative based in the san francisco bay area"
+
+# URL
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+# Markdown
+markdown:           kramdown
+
+# Navigation
+nav:
+  - name:           "Linkedin"
+    href:           "//linkedin.com/in/hassaan-ahmed-ca"
+  - name:           "Github"
+    href:           "//github.com/hahmed427"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
