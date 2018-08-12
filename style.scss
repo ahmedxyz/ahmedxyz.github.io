@@ -259,20 +259,20 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 0rem;
   margin-left:  auto;
   margin-right: auto;
 
   @media (min-width: 38rem){
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 0rem;
   }
 }
 
 .masthead {
 
   &-title {
-    font-weight: 300;
-		text-transform: lowercase;
+	font-weight: 300;
+	text-transform: lowercase;
 
     a {
       color: #111;
@@ -315,6 +315,16 @@ tbody tr:nth-child(odd) th {
       }
     }
   }
+}
+
+.footer {
+	text-align: center;
+	color: #bbb;
+	font-size: .75rem;
+
+	&-line {
+		margin: 1rem 10% .25rem;
+	}
 }
 
 .page {

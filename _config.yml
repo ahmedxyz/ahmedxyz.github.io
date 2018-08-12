@@ -16,7 +16,7 @@ nav:
   - name:           "Github"
     href:           "//github.com/hahmed427"
   - name:           "RSS"
-    href:            "{{ site.baseurl }}/feed.xml"
+    href:            "/feed.xml"
 
 # Sass
 sass:
