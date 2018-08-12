@@ -318,18 +318,29 @@ tbody tr:nth-child(odd) th {
 }
 
 .page {
+	padding: .5em;
+	background-color: #fff;
+	border-radius: .5em;
+	margin-bottom: .5em;
+
   &-title {
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
   }
 }
 
 .post {
+	padding: .5em;
+	background-color: #fff;
+	border-radius: .5em;
+	margin-bottom: .5em;
+
   &-date {
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
     font-size: 1rem;
+	color: #777;
   }
   &-title {
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
   }
 }
 
@@ -344,7 +355,7 @@ tbody tr:nth-child(odd) th {
   &-post-date {
     margin-bottom: .5rem;
     font-size: 1rem;
-		color: #777;
+	color: #777;
   }
   &-post-title {
     margin-bottom: .5rem;
@@ -357,12 +368,6 @@ tbody tr:nth-child(odd) th {
         text-decoration: none;
       }
     }
-  }
-}
-
-.projects-list {
-  a {
-    color: #333;
   }
 }
 
