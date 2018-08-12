@@ -16,7 +16,7 @@ nav:
   - name:           "Github"
     href:           "//github.com/hahmed427"
   - name:           "RSS"
-    href:            "/feed.xml"
+    href:            "{{ site.baseurl }}/feed.xml"
 
 # Sass
 sass:
@@ -36,4 +36,3 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-
