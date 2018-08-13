@@ -1,8 +1,10 @@
 # Basic
 name:               "Hassaan Ahmed"
 description:        "a creative based in the san francisco bay area"
+author:             Hassaan Ahmed
 
 # URL
+url:                "https://hahmed427.github.io"
 baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
@@ -36,3 +38,11 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+# Twitter
+twitter:
+    card:           summary
+
+# Plugins
+plugins:
+    - jekyll-seo-tag
