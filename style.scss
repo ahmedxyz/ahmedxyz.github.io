@@ -17,7 +17,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.5;
 
   @media (min-width: 38em) {
     font-size: 20px;
@@ -44,7 +44,6 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
-  font-weight: 300;
   line-height: 1;
   color: #333;
   letter-spacing: -.025rem;
@@ -52,19 +51,22 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+  font-weight: 300;
 }
 
 h2 {
   font-size: 1.5rem;
-	font-weight: 450;
+  font-weight: 450;
 }
 
 h3 {
   font-size: 1.25rem;
+  font-weight: 300;
 }
 
 h4, h5, h6 {
   font-size: 1rem;
+  font-weight: 300;
 }
 
 p {
