@@ -27,6 +27,7 @@ html {
 body {
   color: #555;
   background-color: #f9f9f9;
+  text-rendering: optimizeLegibility; 
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -45,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   line-height: 1;
+  font-weight: 300;
   color: #333;
   letter-spacing: -.025rem;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 300;
 }
 
 h2 {
@@ -61,12 +62,10 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  font-weight: 300;
 }
 
 h4, h5, h6 {
   font-size: 1rem;
-  font-weight: 300;
 }
 
 p {
