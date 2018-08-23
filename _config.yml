@@ -19,6 +19,8 @@ nav:
     href:           "//linkedin.com/in/hassaan-ahmed-ca"
   - name:           "Github"
     href:           "//github.com/hahmed427"
+  - name:           "Email"
+    href:           "mailto:me@hassaanahmed.com"
   - name:           "RSS"
     href:            "/feed.xml"
 
