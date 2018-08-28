@@ -13,6 +13,8 @@ permalink:          /:year/:month/:day/:title/
 # Markdown
 markdown:           kramdown
 
+# Google Analytics
+google_analytics:   UA-124728562-1
 # Navigation
 nav:
   - name:           "Linkedin"
