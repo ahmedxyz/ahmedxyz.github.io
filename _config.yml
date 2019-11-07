@@ -1,7 +1,7 @@
 # Basic
 name:               "Hassaan Ahmed"
 title:              "Hassaan Ahmed"
-description:        "a student seeking to build technology that increases human potential"
+description:        "a student based in the san francisco bay area"
 author:             Hassaan Ahmed
 logo:               /assets/images/logo.png
 
@@ -23,8 +23,6 @@ nav:
     href:           "//github.com/hahmed427"
   - name:           "Email"
     href:           "mailto:me@hassaanahmed.com"
-  - name:           "RSS"
-    href:            "/feed.xml"
 
 # Sass
 sass:
