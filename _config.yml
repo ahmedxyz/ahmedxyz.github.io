@@ -1,12 +1,12 @@
 # Basic
 name:               "Hassaan Ahmed"
 title:              "Hassaan Ahmed"
-description:        "a student based in the san francisco bay area"
+description:        "a computer science student at the university of michigan"
 author:             Hassaan Ahmed
 logo:               /assets/images/logo.png
 
 # URL
-url:                "//hassaanahmed.com"
+url:                "//ahmedxyz.github.io"
 baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
@@ -15,14 +15,15 @@ markdown:           kramdown
 
 # Google Analytics
 google_analytics:   UA-124728562-1
+
 # Navigation
 nav:
   - name:           "Linkedin"
     href:           "//linkedin.com/in/hassaan-ahmed-ca"
   - name:           "Github"
-    href:           "//github.com/hahmed427"
+    href:           "//github.com/ahmedxyz"
   - name:           "Email"
-    href:           "mailto:me@hassaanahmed.com"
+    href:           "mailto:ahmedxyz@umich.edu"
 
 # Sass
 sass:
